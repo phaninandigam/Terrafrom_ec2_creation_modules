@@ -55,4 +55,6 @@ variable "ami_value" {
 
 variable "ec2_type" {}
 
-variable "ec2_name" {}
+variable "ec2_name" {
+default = "Test"
+}
